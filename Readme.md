@@ -79,6 +79,35 @@ apt install ros-humble-rtabmap-ros
 
 Son necesarios "Computer Vision Toolbox" y "Image Processing Toolbox".
 
+## Lanzamiento
+
+### Lanzamiento de la simulación
+```bash
+cd project_gazebo
+./launch_as2.bash
+```
+### Visualizador de tópicos
+```bash
+rviz2
+```
+### Archivos python
+Basta con lanzarlos directamente, salvo que forme parte de un módulo rclpy (por ejemplo el min_range_filter.py). Que entonces hay que crear un directorio de carpetas de nodo rclpy y poner ese archivo dentro:
+
+```bash
+mkdir ros2_ws/src
+cd ros2_ws/src
+ros2 pkg create min_range_filter_node \
+  --build-type ament_python \
+  --dependencies rclpy sensor_msgs
+# Sustituir el archivo generado .py por el del repositorio
+colcon build
+source install/setup.bash
+ros2 run min_range_filter_node min_range_filter
+```
+
+## Archivos de matlab
+
+Se pueden ejecutar en Matlab con los toolboxes requeridos directamente. Solo es necesario contar con la imagen del mapa de alturas (ya en el repositorio) y un archivo .ply (demasiado pesado para subirlo al repositorio).
 
 ## Referencias
 
