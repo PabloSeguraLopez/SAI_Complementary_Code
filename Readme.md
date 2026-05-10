@@ -78,3 +78,22 @@ apt install ros-humble-rtabmap-ros
 ### 7. Matlab
 
 Son necesarios "Computer Vision Toolbox" y "Image Processing Toolbox".
+
+
+## Referencias
+
+- Minguez, J. y Montano, L. (2004). *Nearness Diagram (ND) Navigation: Collision Avoidance in Troublesome Scenarios*. IEEE Transactions on Robotics and Automation, 20(1), 45–59.
+
+- Labbé, M. y Michaud, F. (2019). *RTAB-Map as an Open-Source Lidar and Visual SLAM Library for Large-Scale and Long-Term Online Operation*. Journal of Field Robotics, 36(2), 416–446. https://doi.org/10.1002/rob.21831
+
+- Erdogan, M. (2019). *Dataset of Gazebo Worlds, Models and Maps*. Repositorio de GitHub. https://github.com/mlherd/Dataset-of-Gazebo-Worlds-Models-and-Maps. Accedido el 9 de mayo de 2026.
+
+- Fernandez-Cortizas, M., Molina, M., Arias-Perez, P., Perez-Segui, R., Perez-Saura, D. y Campoy, P. (2023). *Aerostack2: A software framework for developing multi-robot aerial systems*. arXiv preprint arXiv:2303.18237. https://doi.org/10.48550/arXiv.2303.18237
+
+- Koenig, N. y Howard, A. (2004). *Design and Use Paradigms for Gazebo, An Open-Source Multi-Robot Simulator*. IEEE/RSJ International Conference on Intelligent Robots and Systems, 2149–2154. Sendai, Japón.
+
+- Macenski, S., Foote, T., Gerkey, B., Lalancette, C. y Woodall, W. (2022). *Robot Operating System 2: Design, architecture, and uses in the wild*. Science Robotics, 7(66), eabm6074. https://doi.org/10.1126/scirobotics.abm6074
+
+- Hart, P. E., Nilsson, N. J. y Raphael, B. (1968). *A Formal Basis for the Heuristic Determination of Minimum Cost Paths*. IEEE Transactions on Systems Science and Cybernetics, 4(2), 100–107. https://doi.org/10.1109/TSSC.1968.300136
+
+- Borenstein, J. y Koren, Y. (1991). *The Vector Field Histogram—Fast Obstacle Avoidance for Mobile Robots*. IEEE Transactions on Robotics and Automation, 7(3), 278–288. https://doi.org/10.1109/70.88137
