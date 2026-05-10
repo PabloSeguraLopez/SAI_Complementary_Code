@@ -126,3 +126,17 @@ Se pueden ejecutar en Matlab con los toolboxes requeridos directamente. Solo es 
 - Hart, P. E., Nilsson, N. J. y Raphael, B. (1968). *A Formal Basis for the Heuristic Determination of Minimum Cost Paths*. IEEE Transactions on Systems Science and Cybernetics, 4(2), 100–107. https://doi.org/10.1109/TSSC.1968.300136
 
 - Borenstein, J. y Koren, Y. (1991). *The Vector Field Histogram—Fast Obstacle Avoidance for Mobile Robots*. IEEE Transactions on Robotics and Automation, 7(3), 278–288. https://doi.org/10.1109/70.88137
+
+
+## Participantes
+Acaymo Jesús Granado Sánchez
+
+Juan Antonio Hernández Rodríguez
+
+Eduardo Ortega Zerpa
+
+Imanol Benito Quintero Bermúdez
+
+Santiago Santana Martínez
+
+Pablo Segura López
